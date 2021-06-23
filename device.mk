@@ -244,6 +244,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AliothFrameworks \
     FrameworksResTarget \
     WifiResTarget
 
