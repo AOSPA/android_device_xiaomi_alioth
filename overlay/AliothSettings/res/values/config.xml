@@ -19,4 +19,7 @@
     <!-- Fingerprint -->
     <item name="fingerprint_sensor_location_fraction_y" type="fraction">41%</item>
 
+    <!-- Whether to show a preference item for regulatory information in About phone -->
+    <bool name="config_show_regulatory_info">true</bool>
+
 </resources>

@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "SettingsOverlayM2012K11AI",
+    product_specific: true,
+}

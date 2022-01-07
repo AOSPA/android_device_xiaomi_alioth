@@ -269,6 +269,8 @@ PRODUCT_PACKAGES += \
     AliothSystemUI \
     AOSPAAliothFrameworks \
     FrameworksResTarget \
+    SettingsOverlayM2012K11AG \
+    SettingsOverlayM2012K11AI
     WifiResTarget
 
 # Partitions
