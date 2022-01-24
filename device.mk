@@ -271,6 +271,9 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     SettingsOverlayM2012K11AG \
     SettingsOverlayM2012K11AI \
+    SettingsProviderM2012K11AC \
+    SettingsProviderM2012K11AG \
+    SettingsProviderM2012K11AI \
     WifiOverlayM2012K11AC \
     WifiOverlayM2012K11AG \
     WifiOverlayM2012K11AI \
