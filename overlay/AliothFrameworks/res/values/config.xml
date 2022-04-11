@@ -207,4 +207,18 @@
         <item>9</item> <!-- COLOR_MODE_DISPLAY_P3 -->
     </integer-array>
 
+    <!-- An array of arrays of side fingerprint sensor properties relative to each display.
+         Note: this value is temporary and is expected to be queried directly
+         from the HAL in the future. -->
+    <array name="config_sfps_sensor_props" translatable="false">
+        <item>@array/config_sfps_sensor_props_alioth</item>
+    </array>
+
+    <array name="config_sfps_sensor_props_alioth" translatable="false">
+        <item>local:4630946736638489729</item>
+        <item>1080</item>
+        <item>963</item>
+        <item>117</item>
+    </array>
+
 </resources>
