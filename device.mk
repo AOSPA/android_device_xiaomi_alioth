@@ -99,6 +99,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.bluetooth.wipower=false \
     vendor.qcom.bluetooth.soc=hastings
 
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.vendor.btstack.enable.lpa=true
+
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
