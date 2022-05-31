@@ -71,7 +71,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.usb.disable.sidetone=true
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Bluetooth
 PRODUCT_PACKAGES += \
