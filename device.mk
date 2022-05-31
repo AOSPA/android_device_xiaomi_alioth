@@ -268,6 +268,7 @@ PRODUCT_PACKAGES += \
     AliothSettings \
     AliothSystemUI \
     AOSPAAliothFrameworks \
+    AOSPAAliothSystemUI \
     FrameworksResTarget \
     SettingsOverlayM2012K11AG \
     SettingsOverlayM2012K11AI \
