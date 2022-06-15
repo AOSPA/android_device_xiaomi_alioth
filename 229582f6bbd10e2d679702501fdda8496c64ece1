@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17cd8513_376ee729",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-06-15T18:55:59Z",
+      "side": 1,
+      "message": "maybe I\u0027m not understanding this but why is the output not the st file?",
+      "revId": "229582f6bbd10e2d679702501fdda8496c64ece1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
