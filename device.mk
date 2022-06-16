@@ -224,10 +224,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
     android.hardware.health@2.1-service
 
-# Incremental FS
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.incremental.enable=1
-
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
@@ -279,9 +275,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Platform
 TARGET_BOARD_PLATFORM := kona
 
-# Project ID Quota
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := all
 TARGET_NFC_SKU := pro
@@ -322,6 +315,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.soc.manufacturer=QTI \
     ro.soc.model=SM8250
+
+# Storage
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.incremental.enable=yes
+
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Subsystem silent restart
 PRODUCT_PROPERTY_OVERRIDES += \
