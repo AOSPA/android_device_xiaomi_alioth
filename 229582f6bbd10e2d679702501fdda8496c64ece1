@@ -16,6 +16,24 @@
       "message": "maybe I\u0027m not understanding this but why is the output not the st file?",
       "revId": "229582f6bbd10e2d679702501fdda8496c64ece1",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48f8bb2f_de2f8ccc",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-20T08:16:57Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "17cd8513_376ee729",
+      "revId": "229582f6bbd10e2d679702501fdda8496c64ece1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
