@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bd88e5c_d756a638",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-06-23T05:23:43Z",
+      "side": 1,
+      "message": " 96M boot.img\n8.0M dtbo.img\n1.2M odm.img\n1.8G product.img\n515M system_ext.img\n797M system.img\n8.0K vbmeta.img\n4.0K vbmeta_system.img\n 96M vendor_boot.img\n1.3G vendor.img\ntotal 4.5G",
+      "revId": "6b54918842a87c8f197582d7fd3bd397cb1f1f4d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
