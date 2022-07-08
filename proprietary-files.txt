@@ -547,6 +547,14 @@ vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|29ba8a11713104965a264f0cc9
 # Camera (postproc) - from LA.UM.9.14.r1-18400.02-LAHAINA.QSSI12.0
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|afeca01f1fc2619ddf1aada01d42735ab9efa682
 
+# Camera - from redfin-sq3a.220705.003.a1-factory-b193f96f
+vendor/lib/libOpenCL-pixel.so|f3ed10d2b3082314b5650771b74d479db1d1f8d8
+vendor/lib/lib_aion_buffer.so|8bf9098b7bed8cc3dbad034e3c24bf4db4fb2dbd
+vendor/lib/libgpudataproducer.so|5221d16c9879b7c0699e2c1ed1b39bd7eb8ec1bf
+vendor/lib64/libOpenCL-pixel.so|9a63fd653d5e196785b01654bc8b6951a747a0ad
+vendor/lib64/lib_aion_buffer.so|38768127648a7c47951d5bd6f3d44032e6175e79
+vendor/lib64/libgpudataproducer.so|af011c53cc99be61fab667e341dd31b1b4949c63
+
 # CNE
 vendor/app/CACertService/CACertService.apk
 vendor/app/CneApp/CneApp.apk

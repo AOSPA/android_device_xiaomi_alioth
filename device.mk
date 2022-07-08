@@ -114,7 +114,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/camera/st_license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/st_license.lic
+    $(LOCAL_PATH)/configs/camera/st_license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/st_license.lic \
+    $(LOCAL_PATH)/configs/camera/public.libraries.vendor-redfin.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.vendor-redfin.txt
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
