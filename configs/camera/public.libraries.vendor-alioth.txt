@@ -1,0 +1,3 @@
+libOpenCL-pixel.so
+lib_aion_buffer.so
+libqdMetaData.so
