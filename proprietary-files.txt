@@ -263,7 +263,6 @@ vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin|73ce47889e10e16dff6cb9cac2923cc
 vendor/etc/camera/ai_enhance.dlc|a89c006700150fcc7fff69f5712d1617f6fd45d8
 vendor/etc/camera/beauty_ui9_intelligent_params.config|a9cf088efb6f656ae369a53e96808ef673e27c67
 vendor/etc/camera/bokehParams.json|874bdc989c6e3d4e489d714f3ea971eddc32d000
-vendor/etc/camera/camxoverridesettings.txt|8e35354de8d8f48fdedec6fdae4e2607bfb688e0
 vendor/etc/camera/com.xiaomi.dcal.wu.fake|cfda91b3c946c09ce3416906a0430b69160e3ca8
 vendor/etc/camera/com.xiaomi.dcal.wu.golden|cfda91b3c946c09ce3416906a0430b69160e3ca8
 vendor/etc/camera/det_quantize.dlc|ffcd172c0f51e89bfd1538951a6c84bf8abea684
