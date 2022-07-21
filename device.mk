@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Paranoid Android
+# Copyright (C) 2022 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -313,6 +313,10 @@ PRODUCT_PACKAGES += \
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
+
+# SIP + VoIP
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml
 
 # SOC Properties
 PRODUCT_PROPERTY_OVERRIDES += \
