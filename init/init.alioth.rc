@@ -2,9 +2,6 @@ import /vendor/etc/init/init.batterysecret.rc
 import /vendor/etc/init/init.mi_thermald.rc
 import /vendor/etc/init/init.charge_logger.rc
 
-on init
-    chown system system /proc/last_kmsg
-
 on fs
     mkdir /mnt/vendor/persist/haptics 0755 system system
     mkdir /mnt/vendor/persist/audio 0755 system system
@@ -35,10 +32,10 @@ on post-fs-data
 on boot
     chown system system /sys/touchpanel/double_tap
     chown system system /sys/class/touch/touch_dev/palm_sensor
-    chown system system /sys/class/touch/touch_dev/partial_diff_data
     chown system system /sys/class/thermal/thermal_message/sconfig
     copy  /vendor/etc/tunings.txt /mnt/vendor/persist/vpp/tunings.txt
     mkdir /mnt/vendor/persist/camera 0755 system cameraserver
+    write /sys/block/sda/queue/wbt_lat_usec 75000
 
 on property:vendor.post_boot.parsed=1
     # configure input boost settings
@@ -61,7 +58,7 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     group audio camera drmrpc inet media mediadrm net_bt net_bt_admin net_bw_acct oem_2901 wakelock
     capabilities BLOCK_SUSPEND
     ioprio rt 4
-    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
+    task_profiles ProcessCapacityHigh HighPerformance
     socket audio_hw_socket seqpacket 0666 system system
     onrestart restart audioserver
 
