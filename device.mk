@@ -284,7 +284,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := all
-TARGET_NFC_SKU := alioth
+TARGET_NFC_SKU := pro
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
