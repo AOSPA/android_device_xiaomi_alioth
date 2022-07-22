@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d352730_1232f290",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-07-22T13:01:39Z",
+      "side": 1,
+      "message": "mi_thermald seems to be disabled so let\u0027s see if qti thermal works now?",
+      "revId": "62e5192d793515c7ec7f0e15319e846c0029d33e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
