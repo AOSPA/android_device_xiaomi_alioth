@@ -44,7 +44,6 @@ void load_dalvikvm_properties() {
 }
 
 void load_redmi_k40() {
-    property_override("ro.boot.product.hardware.sku", "alioth");
     property_override("ro.product.model", "M2012K11AC");
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.vendor.manufacturer", "Xiaomi");
@@ -53,7 +52,6 @@ void load_redmi_k40() {
 }
 
 void load_poco_f3() {
-    property_override("ro.boot.product.hardware.sku", "alioth");
     property_override("ro.product.model", "M2012K11AG");
     property_override("ro.product.brand", "POCO");
     property_override("ro.product.vendor.manufacturer", "Xiaomi");

@@ -91,9 +91,9 @@ DEVICE_MANIFEST_FILE += \
 DEVICE_MATRIX_FILE += \
     device/qcom/common/compatibility_matrix.xml
 
-ODM_MANIFEST_SKUS += alioth
+ODM_MANIFEST_SKUS := pro std
 
-ODM_MANIFEST_ALIOTH_FILES := \
+ODM_MANIFEST_PRO_FILES := \
     $(DEVICE_PATH)/configs/vintf/manifest-nfc.xml
 
 # Hacks
