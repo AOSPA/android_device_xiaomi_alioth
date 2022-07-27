@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3d6ce8d_71b915ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000697
+      },
+      "writtenOn": "2022-07-27T06:35:19Z",
+      "side": 1,
+      "message": "Can be ignored for now as it doesn\u0027t seems to break anything\nJust the property access denied logs are annoying",
+      "revId": "b4d12c279221bb8d9a118be565086df86daa4455",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
