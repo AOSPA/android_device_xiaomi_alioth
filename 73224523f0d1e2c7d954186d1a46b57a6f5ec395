@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d4d102c_968a9537",
+        "filename": "overlay/AliothFrameworks/res/xml/power_profile.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-07-27T03:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd6e53d1_8736866a",
+      "revId": "73224523f0d1e2c7d954186d1a46b57a6f5ec395",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cd5d4d59_738eaa56",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-07-26T18:01:57Z",
       "side": 1,
       "message": "does not exists on CLO/AOSP ROMs",
+      "revId": "73224523f0d1e2c7d954186d1a46b57a6f5ec395",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1e6cec0_591d7e4d",
+        "filename": "overlay/AliothFrameworks/res/xml/power_profile.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-07-27T03:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd5d4d59_738eaa56",
       "revId": "73224523f0d1e2c7d954186d1a46b57a6f5ec395",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
