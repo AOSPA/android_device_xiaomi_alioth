@@ -216,7 +216,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Keyboard height ratio and bottom padding in dp for portrait mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.height_ratio=1.0 \
-    ro.com.google.ime.kb_pad_port_b=14.4
+    ro.com.google.ime.kb_pad_port_b=10.0
 
 # Health
 PRODUCT_PACKAGES += \
