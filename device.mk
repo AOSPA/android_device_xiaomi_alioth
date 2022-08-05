@@ -159,6 +159,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.use_smooth_motion=0
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.frame_rate_multiple_threshold=120 \
     ro.surface_flinger.set_idle_timer_ms=4000 \
     ro.surface_flinger.set_touch_timer_ms=4000 \
     ro.surface_flinger.set_display_power_timer_ms=1000 \
