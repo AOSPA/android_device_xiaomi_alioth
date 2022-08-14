@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5ac3aac_067022e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-08-14T08:13:50Z",
+      "side": 1,
+      "message": "https://github.com/AOSPA/android_frameworks_native/commit/ab0c8d9100cb003089964c30eb609cd95622e252",
+      "revId": "98afb52d5b974772c827b928f7c7f26a1e5576e2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
