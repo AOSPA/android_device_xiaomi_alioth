@@ -1,4 +1,4 @@
-# Fingerprint
+# Fingerprint HIDL services
 vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint                      u:object_r:vendor_hal_xiaomi_fingerprint_hwservice:s0
 com.fingerprints.extension::IFingerprintEngineering                                  u:object_r:vendor_hal_xiaomi_fingerprint_hwservice:s0
 com.fingerprints.extension::IFingerprintAuthenticator                                u:object_r:vendor_hal_xiaomi_fingerprint_hwservice:s0
