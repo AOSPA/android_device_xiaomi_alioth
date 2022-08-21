@@ -155,7 +155,7 @@
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
         <item>2.0</item>
-        <item>1300.0</item>
+        <item>900.0</item>
     </array>
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
