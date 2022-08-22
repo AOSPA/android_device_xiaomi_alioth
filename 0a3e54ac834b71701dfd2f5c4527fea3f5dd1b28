@@ -16,6 +16,24 @@
       "message": "what is the effect of this? smaller apks?",
       "revId": "0a3e54ac834b71701dfd2f5c4527fea3f5dd1b28",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b29867f_a59584a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-08-22T13:01:29Z",
+      "side": 1,
+      "message": "things picking up correct resources for dpi \nfor example rocket league picks up higher resolution textures based on this",
+      "parentUuid": "3769e3b8_746fc799",
+      "revId": "0a3e54ac834b71701dfd2f5c4527fea3f5dd1b28",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
