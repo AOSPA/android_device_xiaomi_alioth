@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3769e3b8_746fc799",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-08-22T09:45:25Z",
+      "side": 1,
+      "message": "what is the effect of this? smaller apks?",
+      "revId": "0a3e54ac834b71701dfd2f5c4527fea3f5dd1b28",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
