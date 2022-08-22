@@ -875,11 +875,11 @@ vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 vendor/lib64/libspcom.so
 
-# MDM
-vendor/bin/ks
-vendor/bin/mdm_helper
-vendor/bin/mdm_helper_proxy
-vendor/lib64/libmdmimgload.so
+# MDM - MIUI
+vendor/bin/ks|45109ee2897c57c0fe133d4df1d8a02e037c594a
+vendor/bin/mdm_helper|e39394671d31704fcfca6a7b1438d4f5dd5aee65
+vendor/bin/mdm_helper_proxy|8f83cd1bd5ba6d0ebaac67aef1921dbdd94bc613
+vendor/lib64/libmdmimgload.so|8a9577fa4f74a1fff22c25b592b4598f4de5a243
 
 # MMI
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
