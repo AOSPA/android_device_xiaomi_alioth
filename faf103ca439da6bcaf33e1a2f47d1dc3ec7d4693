@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3409ac5f_d36c044c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-08-22T05:59:50Z",
+      "side": 1,
+      "message": "https://t.me/aospa_mikona/31604",
+      "revId": "faf103ca439da6bcaf33e1a2f47d1dc3ec7d4693",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
