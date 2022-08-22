@@ -16,6 +16,24 @@
       "message": "shouldn\u0027t this be defined for everyone?",
       "revId": "98b9ea394b29dba669a0b1b3c16d16559c54155c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1805233b_6651a84a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-08-22T13:00:51Z",
+      "side": 1,
+      "message": "yes, didn\u0027t find a good way to only include it for qcom",
+      "parentUuid": "68ed77e3_3f8e622e",
+      "revId": "98b9ea394b29dba669a0b1b3c16d16559c54155c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
