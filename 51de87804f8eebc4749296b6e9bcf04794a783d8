@@ -16,6 +16,24 @@
       "message": "Is it correct?\n\nstrings ~/workspace/kona/vendor/lib64/libvpplibrary.so| grep tunings.txt\n/mnt/vendor/persist/vpp/tunings.txt",
       "revId": "51de87804f8eebc4749296b6e9bcf04794a783d8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70e92d12_29eb05d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000697
+      },
+      "writtenOn": "2022-08-23T04:10:25Z",
+      "side": 1,
+      "message": "yes its done by our init script here:\n\nhttps://github.com/AOSPA/android_device_xiaomi_alioth/blob/sapphire/init/init.alioth.rc#L40",
+      "parentUuid": "8644107e_d2303238",
+      "revId": "51de87804f8eebc4749296b6e9bcf04794a783d8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
