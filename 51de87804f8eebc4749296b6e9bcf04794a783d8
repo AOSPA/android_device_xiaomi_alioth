@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8644107e_d2303238",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2022-08-23T04:05:04Z",
+      "side": 1,
+      "message": "Is it correct?\n\nstrings ~/workspace/kona/vendor/lib64/libvpplibrary.so| grep tunings.txt\n/mnt/vendor/persist/vpp/tunings.txt",
+      "revId": "51de87804f8eebc4749296b6e9bcf04794a783d8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
