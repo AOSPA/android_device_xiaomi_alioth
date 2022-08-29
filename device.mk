@@ -357,6 +357,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
     android.hardware.keymaster@4.1.vendor \
     android.hardware.neuralnetworks@1.3.vendor \
+    android.hardware.wifi.hostapd@1.0.vendor
 
 # WLAN
 PRODUCT_COPY_FILES += \
