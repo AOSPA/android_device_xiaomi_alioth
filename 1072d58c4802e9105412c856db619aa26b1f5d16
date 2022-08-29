@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dcf135e3_f7337573",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-08-29T08:18:32Z",
+      "side": 1,
+      "message": "17:18:11 Removed file that is no longer installed:  /out/gotenks-aospa/target/product/alioth/vendor/lib64/libwfdaac_vendor.so",
+      "revId": "1072d58c4802e9105412c856db619aa26b1f5d16",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
