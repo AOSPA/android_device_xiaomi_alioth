@@ -24,6 +24,7 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/camera \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/fingerprint \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/ir \
+    device/xiaomi/alioth/sepolicy/vendor/xiaomi/modem \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/power_supply \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/sensors \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/thermald \
