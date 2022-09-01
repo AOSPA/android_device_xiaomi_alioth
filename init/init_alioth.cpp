@@ -22,35 +22,74 @@
 
 using android::base::GetProperty;
 
-void property_override(char const prop[], char const value[], bool add = true) {
-    prop_info* pi;
-
-    pi = (prop_info*)__system_property_find(prop);
-    if (pi)
-        __system_property_update(pi, value, strlen(value));
-    else if (add)
-        __system_property_add(prop, strlen(prop), value, strlen(value));
+void property_override(std::string prop, std::string value, bool add) {
+    auto pi = (prop_info *) __system_property_find(prop.c_str());
+    if (pi != nullptr) {
+        __system_property_update(pi, value.c_str(), value.length());
+    } else if (add) {
+        __system_property_add(prop.c_str(), prop.length(), value.c_str(), value.length());
+    }
 }
+
+std::vector<std::string> ro_props_default_source_order = {
+    "odm.",
+    "odm_dlkm.",
+    "product.",
+    "system.",
+    "system_ext.",
+    "vendor.",
+    "vendor_dlkm.",
+    "",
+};
+
+void set_ro_build_prop(const std::string &prop, const std::string &value) {
+    std::string prop_name;
+
+    for (const auto &source : ro_props_default_source_order) {
+            prop_name = "ro." + source + "build." + prop;
+
+        property_override(prop_name, value, true);
+    }
+}
+
 
 void load_dalvikvm_properties() {
     struct sysinfo sys;
     sysinfo(&sys);
     if(sys.totalram > 6144ull * 1024 * 1024) {
     // from - phone-xhdpi-8192-dalvik-heap.mk
-        property_override("dalvik.vm.heapstartsize", "24m");
-        property_override("dalvik.vm.heaptargetutilization", "0.46");
-        property_override("dalvik.vm.heapmaxfree", "48m");
+        property_override("dalvik.vm.heapstartsize", "24m", true);
+        property_override("dalvik.vm.heaptargetutilization", "0.46", true);
+        property_override("dalvik.vm.heapmaxfree", "48m", true);
     }
+}
+
+void load_redmi_k40() {
+    set_ro_build_prop("ro.product.brand", "Redmi");
+    set_ro_build_prop("ro.product.device", "alioth");
+    set_ro_build_prop("ro.product.model", "M2012K11AC");
+}
+
+void load_poco_f3() {
+    set_ro_build_prop("ro.product.brand", "POCO");
+    set_ro_build_prop("ro.product.device", "alioth");
+    set_ro_build_prop("ro.product.model", "M2012K11AG");
+}
+
+void load_xiaomi_mi11x() {
+    set_ro_build_prop("ro.product.brand", "Mi");
+    set_ro_build_prop("ro.product.device", "aliothin");
+    set_ro_build_prop("ro.product.model", "M2012K11AI");
 }
 
 void vendor_load_properties() {
     std::string region = GetProperty("ro.boot.hwc", "");
     if (region.find("INDIA") != std::string::npos) {
-        property_override("ro.product.model", "M2012K11AI");
+        load_xiaomi_mi11x();
     } else if (region.find("CN") != std::string::npos) {
-        property_override("ro.product.model", "M2012K11AC");
+        load_redmi_k40();
     } else {
-        property_override("ro.product.model", "M2012K11AG");
+        load_poco_f3();
     }
 
     load_dalvikvm_properties();
