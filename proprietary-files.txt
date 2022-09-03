@@ -544,9 +544,7 @@ vendor/lib64/libxmi_hdr_checker.so|3124e8cec5613e01fff7921d22a19888b3cebb8d
 vendor/lib64/libxmi_high_dynamic_range.so|03803efe0604454ff6fee39f4b4e9b189a83f144
 vendor/lib64/vendor.qti.hardware.camera.device@2.0.so|8c8e36a337718de47154baf4979936f2abf1d29c
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|2c95532c8de8ae9bc61cd4d62963a4474ab717ee
-
-# Camera (postproc) - from LA.UM.9.14.r1-18400.02-LAHAINA.QSSI12.0
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|afeca01f1fc2619ddf1aada01d42735ab9efa682
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|8629ddc55445116852140a88c6d272683ac6bd49
 
 # CNE
 vendor/app/CACertService/CACertService.apk
