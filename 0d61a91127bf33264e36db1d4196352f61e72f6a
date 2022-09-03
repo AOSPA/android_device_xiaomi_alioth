@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70ff46ef_646df3ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-09-03T12:23:01Z",
+      "side": 1,
+      "message": "https://cs.android.com/android/platform/superproject/+/master:device/google/gs101/BoardConfig-common.mk;l\u003d176\n\nseems like google moved away from this as well",
+      "revId": "0d61a91127bf33264e36db1d4196352f61e72f6a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
