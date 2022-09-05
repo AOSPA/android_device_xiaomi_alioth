@@ -43,14 +43,39 @@ void load_dalvikvm_properties() {
     }
 }
 
+
+void load_redmi_k40() {
+    property_override("ro.product.brand", "Redmi");
+    property_override("ro.product.device", "alioth");
+    property_override("ro.product.manufacturer", "Xiaomi");
+    property_override("ro.product.model", "M2012K11AC");
+    property_override("ro.product.name", "alioth");
+}
+
+void load_poco_f3() {
+    property_override("ro.product.brand", "POCO");
+    property_override("ro.product.device", "alioth");
+    property_override("ro.product.manufacturer", "Xiaomi");
+    property_override("ro.product.model", "M2012K11AG");
+    property_override("ro.product.name", "alioth");
+}
+
+void load_xiaomi_mi11x() {
+    property_override("ro.product.brand", "Mi");
+    property_override("ro.product.device", "alioth");
+    property_override("ro.product.manufacturer", "Xiaomi");
+    property_override("ro.product.model", "M2012K11AI");
+    property_override("ro.product.name", "alioth");
+}
+
 void vendor_load_properties() {
     std::string region = GetProperty("ro.boot.hwc", "");
     if (region.find("INDIA") != std::string::npos) {
-        property_override("ro.product.model", "M2012K11AI");
+        load_xiaomi_mi11x();
     } else if (region.find("CN") != std::string::npos) {
-        property_override("ro.product.model", "M2012K11AC");
+        load_redmi_k40();
     } else {
-        property_override("ro.product.model", "M2012K11AG");
+        load_poco_f3();
     }
 
     load_dalvikvm_properties();
