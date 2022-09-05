@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "571ba3b6_ce210fcc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-09-05T03:40:52Z",
+      "side": 1,
+      "message": "realistically, only the user facing properties actually matter\nin this case, that is model",
+      "revId": "ab6e92d329b6779eb0649b33ccb9ceb71ad64c08",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
