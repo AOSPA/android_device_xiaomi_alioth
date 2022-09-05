@@ -710,7 +710,9 @@ vendor/firmware/ipa_uc.mdt|038d9c2619599f7acc7b91af759a2c2016c7eba7
 
 # Diag
 vendor/lib/libdiag.so
+vendor/lib/libdiagjni.so
 vendor/lib64/libdiag.so
+vendor/lib64/libdiagjni.so
 
 # Display
 vendor/bin/hw/vendor.display.color@1.0-service
