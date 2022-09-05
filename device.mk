@@ -252,6 +252,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Netflix
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.netflix.bsp_rev=Q8250-19134-1
+
 # NFC
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/nfc/,$(TARGET_COPY_OUT_VENDOR)/etc)
