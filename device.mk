@@ -81,6 +81,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0.vendor
 
 PRODUCT_VENDOR_PROPERTIES += \
+    bluetooth.device.default_name=POCO F3 \
     persist.sys.fflag.override.settings_bluetooth_hearing_aid=true \
     persist.vendor.qcom.bluetooth.a2dp_mcast_test.enabled=false \
     persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true \
