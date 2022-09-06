@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8efecb7d_6db7917e",
+        "filename": "init/init_alioth.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1000580
+      },
+      "writtenOn": "2022-09-06T16:23:24Z",
+      "side": 1,
+      "message": "Here should be called \"POCO F3\" no?",
+      "revId": "7e6a5ccdc97bcc0e770ee8905175c7bf4a5767cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
