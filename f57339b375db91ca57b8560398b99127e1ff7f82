@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cf18188_1a18149e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000737
+      },
+      "writtenOn": "2022-09-12T11:15:57Z",
+      "side": 1,
+      "message": "Is this not already defined ?\n\nhttps://github.com/AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf/blob/6963b64097a9daf46b147f2edfb64c4fdf0f1660/bt-system-opensource-product.mk#L102",
+      "revId": "f57339b375db91ca57b8560398b99127e1ff7f82",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ],
   "submitRequirementResults": []
 }
