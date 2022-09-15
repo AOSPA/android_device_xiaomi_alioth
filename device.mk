@@ -159,8 +159,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.paneltype=2 \
     ro.vendor.display.sensortype=2 \
-    vendor.display.qdcm.mode_combine=1 \
-    vendor.display.use_layer_ext=0 \
+    vendor.display.qdcm.mode_combine=1
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.surface_flinger.set_idle_timer_ms=4000 \
@@ -170,9 +169,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.defer_fps_frame_count=2
-
-PRODUCT_ODM_PROPERTIES += \
-    vendor.display.use_smooth_motion=0
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/display/,$(TARGET_COPY_OUT_VENDOR)/etc)
