@@ -335,6 +335,11 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# Updater
+PRODUCT_PACKAGES += \
+    ParanoidHub \
+    ParanoidHubOverlay
+
 # Vendor Service Manager
 PRODUCT_PACKAGES += \
     vndservicemanager
