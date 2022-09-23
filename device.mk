@@ -344,6 +344,15 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# Updater
+PRODUCT_PACKAGES += \
+    ParanoidHub \
+    ParanoidHubOverlay
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.image-dex2oat-threads=8
+
 # Vendor Service Manager
 PRODUCT_PACKAGES += \
     vndservicemanager
