@@ -270,6 +270,10 @@ PRODUCT_PACKAGES += \
     WifiOverlayM2012K11AI \
     WifiResTarget
 
+PRODUCT_PACKAGES += \
+    ParanoidHub \
+    ParanoidHubOverlay
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
