@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c98d325_865bd6ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-09-29T18:46:57Z",
+      "side": 1,
+      "message": "my bad, should\u0027ve tested on lahaina instead of taro sepolicy",
+      "revId": "09264ab6aa3d1b2dfdee5e4cb8f78397d0210375",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
