@@ -167,6 +167,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.defer_fps_frame_count=2
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    debug.sf.frame_rate_multiple_threshold=60 \
     ro.surface_flinger.set_idle_timer_ms=4000 \
     ro.surface_flinger.set_touch_timer_ms=4000 \
     ro.surface_flinger.set_display_power_timer_ms=1000 \
