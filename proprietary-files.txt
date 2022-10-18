@@ -738,8 +738,29 @@ vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
+# Display (HWC) - MIUI
+vendor/bin/hw/vendor.qti.hardware.display.composer-service|df6eff22f0c1644563b9112418ad580b2efee461
+vendor/lib64/libdisplayconfig.qti.so|0479d5538e56d4f01e591ce90096721b5752bc97
+vendor/lib64/libsdmcore.so|f5c07bd3dfea2fb408ec9813054eea5408bcf189
+vendor/lib64/libsdmutils.so|e79e4f9d0c585c76b8108d082eadf10ad8b61304
+vendor/lib64/vendor.qti.hardware.display.composer@3.0.so|074d446a37000126729eebbf212872e265e8c570
+
+# Display (SDM) - MIUI
+vendor/lib64/libsdedrm.so|3197ce8917c1424bbe38e58c782dfe911c5e5c9e
+
+# Displayfeature - MIUI
+vendor/bin/displayfeature|e3efc01e4d7fc9cd948297be95c08f08f1fd6367
+vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service|7f76c61924050c24d566dda0d3259785d220b831
+vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc|c129a277fe9ba05188ac6445a887a1e4b793e795
+vendor/lib64/hw/displayfeature.default.so|d04a4f9bde081341d88cbef004a5108659b4d546
+vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so|f31fa2230c4bfa7c4b8da8f9131c60b2f08502f6
+vendor/lib64/libdisplayfeatureservice.so|588f330667c67020bc1717934c0740970fca10bf
+vendor/lib64/libdisplayfeature.so|0c8a40d487be97b9a6226c20577b8483816af751
+vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so|543b2ca155b678c5c671a5e74a18ab016ba1dbee
+
 # Display (Configs) - MIUI
 vendor/etc/default.lm|ccf299a48b5637d96c1033d56b5094d8dd7767dd
+vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml|21d5e8e335d50884453b34665a46e7bd2bcd3ed9
 vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml|06f8f68a6072cbb309fd60b6c058636e65eb6387
 vendor/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml|b6156e3b04f8bfe5750401cf89c62ed8cf07df38
 vendor/etc/tunings.txt|196b4cc4410dd4c521ace955a225b4c8b47268a4
@@ -917,6 +938,10 @@ vendor/lib/unnhal-acc-hta.so
 vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libnpu.so
 vendor/lib64/unnhal-acc-hta.so
+
+# OMX - MIUI
+vendor/lib/libOmxVdec.so|f1b0f5fcebe9d1dbb95082753001e32671837055
+vendor/lib64/libOmxVdec.so|d1cea6c4b64f2c377d5bb6f67707536e80aa2df6
 
 # OpenVX
 vendor/lib/libopenvx.so
