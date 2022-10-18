@@ -1,0 +1,27 @@
+type vendor_displayfeature, domain;
+type vendor_displayfeature_exec, exec_type, vendor_file_type, file_type;
+
+type vendor_hal_displayfeature_xiaomi_default, domain;
+type vendor_hal_displayfeature_xiaomi_default_exec, exec_type, vendor_file_type, file_type;
+type vendor_hal_displayfeature_xiaomi_hwservice, hwservice_manager_type, protected_hwservice;
+type vendor_DisplayFeatureControl_service, vndservice_manager_type;
+
+hal_server_domain(vendor_hal_displayfeature_xiaomi_default, vendor_hal_displayfeature_xiaomi)
+hal_attribute_hwservice(vendor_hal_displayfeature_xiaomi, vendor_hal_displayfeature_xiaomi_hwservice)
+
+vendor_restricted_prop(vendor_displayfeature_prop)
+
+init_daemon_domain(vendor_displayfeature)
+init_daemon_domain(vendor_hal_displayfeature_xiaomi_default)
+
+vndbinder_use(vendor_displayfeature)
+vndbinder_use(vendor_hal_displayfeature_xiaomi)
+
+binder_call(vendor_hal_displayfeature_xiaomi_client, vendor_hal_displayfeature_xiaomi_server)
+binder_call(vendor_hal_displayfeature_xiaomi_server, vendor_hal_displayfeature_xiaomi_client)
+
+hal_client_domain(vendor_displayfeature, vendor_hal_displayfeature_xiaomi)
+
+add_service(vendor_displayfeature, vendor_DisplayFeatureControl_service)
+
+hwbinder_use(vendor_displayfeature)
