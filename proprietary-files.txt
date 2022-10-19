@@ -708,38 +708,62 @@ vendor/firmware/ipa_uc.mdt|309954d6d209dfba25fcf134a9801d0b4249efdd
 vendor/lib/libdiag.so
 vendor/lib64/libdiag.so
 
-# Display
-vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/feature_enabler_client
-vendor/bin/ppd
-vendor/bin/qdcmss
+# Display - MIUI
+vendor/bin/hw/vendor.display.color@1.0-service|9c77c3655befc1c53f842e1b9605b83e3dc64259
+vendor/bin/feature_enabler_client|0e25e593af2f9f3520d28980ad60a67a5cc5385e
+vendor/bin/ppd|28b9f29edf85ed300a3b3c7d81e2271ddf938969
+vendor/bin/qdcmss|536c34abfbf7833df440bfcd264bacdc88318067
+vendor/etc/init/feature_enabler_client.rc|7c8e7cf20093d1a6d94d7de2debd53a7e51f8c29
+vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib64/libdisp-aba.so|902839da31464e54bd4756747db2dd7ad867484f
+vendor/lib64/libdisplayqos.so|56cfe5471e5c282ac83a31e5b155342ade8c08d0
+vendor/lib64/libdisplayskuutils.so|3ddb2ffe55aa9aef686cf3be00ae5e0d1d8f9d93
+vendor/lib64/libdpps.so|f174ea39369242fe128aae84c6724a76238ecc7f
+vendor/lib64/libgralloc.qti.so|79524a9923b88f7b38cf56b7e28e3d0af0fb508d
+vendor/lib64/libhdr_tm.so|4be3cfff1ef40cbc6ad329b79c60881263aa6723
+vendor/lib64/libqdMetaData.so|c0099de3ad114d1925568ea4004d244174942201
+vendor/lib64/libmm-hdcpmgr.so|4ad37a8ca06f826558898aaf53f3d0abaeaab9e0
+vendor/lib64/libqseed3.so|c9fb729cf48278d0c87d27c0af17ae3a8ccb1bf7
+vendor/lib64/libsdedrm.so|3197ce8917c1424bbe38e58c782dfe911c5e5c9e
+vendor/lib64/libsdm-color.so|5bda5568cc91771b12ca0fa9d6e28ef5ac05d5cf
+vendor/lib64/libsdm-colormgr-algo.so|1fb7f3cb11557bbf677afb5d6eda0e4e9fd3ac58
+vendor/lib64/libsdm-diag.so|f532f28a93bb8568652579ea97267d3053ad9cfe
+vendor/lib64/libsdm-disp-vndapis.so|fd0b0beac164c92bfa012dbc059cb50cdde2dec6
+vendor/lib64/libsdmextension.so|99377ab065105f0cbd17bbe5907cdbb8027a9f17
+vendor/lib64/libtinyxml2_1.so|fb0a2b16e5cfd28515268edc5c2345190d1ef4e5
+vendor/lib64/vendor.display.color@1.0.so|e1c1f1591849f77603221c64a382262ae0e97a9f
+vendor/lib64/vendor.display.color@1.1.so|00d2f85e2138bbdd9518c365c8a1b779d2c8deae
+vendor/lib64/vendor.display.color@1.2.so|e1bbbd487df97bc80fd0b0050f363adbea81cc90
+vendor/lib64/vendor.display.color@1.3.so|2e098d2ed666c0dc45f45d093ecb32be5733f3a7
+vendor/lib64/vendor.display.color@1.4.so|fe3380621cf3384284fc19d82b8644910adb06ec
+vendor/lib64/vendor.display.color@1.5.so|9a2c10cbf8ed37371528cc33b7957ff6595ac2ee
+vendor/lib64/vendor.display.postproc@1.0.so|6fd8249ae537e145f1940cdd264773898e6f64b9
+
+# Display (Configs)
 vendor/etc/display/advanced_sf_offsets.xml
-vendor/etc/init/feature_enabler_client.rc
-vendor/etc/init/qdcmss.rc
-vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/lib64/libdisp-aba.so
-vendor/lib64/libdisplayqos.so
-vendor/lib64/libdisplayskuutils.so
-vendor/lib64/libdpps.so
-vendor/lib64/libhdr_tm.so
-vendor/lib64/libmm-hdcpmgr.so
-vendor/lib64/libqseed3.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtinyxml2_1.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.color@1.2.so
-vendor/lib64/vendor.display.color@1.3.so
-vendor/lib64/vendor.display.color@1.4.so
-vendor/lib64/vendor.display.color@1.5.so
-vendor/lib64/vendor.display.postproc@1.0.so
+
+# Display (HWC) - MIUI
+vendor/bin/hw/vendor.qti.hardware.display.composer-service|df6eff22f0c1644563b9112418ad580b2efee461
+vendor/lib64/libdisplayconfig.qti.so|0479d5538e56d4f01e591ce90096721b5752bc97
+vendor/lib64/libsdmcore.so|f5c07bd3dfea2fb408ec9813054eea5408bcf189
+vendor/lib64/libsdmutils.so|e79e4f9d0c585c76b8108d082eadf10ad8b61304
+
+# Displayfeature - MIUI
+vendor/bin/displayfeature|e3efc01e4d7fc9cd948297be95c08f08f1fd6367
+vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service|7f76c61924050c24d566dda0d3259785d220b831
+vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc|c129a277fe9ba05188ac6445a887a1e4b793e795
+vendor/lib64/hw/displayfeature.default.so|d04a4f9bde081341d88cbef004a5108659b4d546
+vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so|f31fa2230c4bfa7c4b8da8f9131c60b2f08502f6
+vendor/lib64/libclient2slpi.notifier.so|f8c5b981583ee2e6a0aa8509ffa550c6ea4fb4e0
+vendor/lib64/libdisplayfeatureservice.so|588f330667c67020bc1717934c0740970fca10bf
+vendor/lib64/libdisplayfeature.so|0c8a40d487be97b9a6226c20577b8483816af751
+vendor/lib64/libtinyxml.so|c223c3a01f25ceae669b29aee5878bc028755f5d
+vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so|543b2ca155b678c5c671a5e74a18ab016ba1dbee
 
 # Display (Configs) - MIUI
 vendor/etc/default.lm|ccf299a48b5637d96c1033d56b5094d8dd7767dd
+vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml|21d5e8e335d50884453b34665a46e7bd2bcd3ed9
 vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml|06f8f68a6072cbb309fd60b6c058636e65eb6387
 vendor/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml|b6156e3b04f8bfe5750401cf89c62ed8cf07df38
 vendor/etc/tunings.txt|196b4cc4410dd4c521ace955a225b4c8b47268a4
@@ -917,6 +941,10 @@ vendor/lib/unnhal-acc-hta.so
 vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libnpu.so
 vendor/lib64/unnhal-acc-hta.so
+
+# OMX - MIUI
+vendor/lib/libOmxVdec.so|f1b0f5fcebe9d1dbb95082753001e32671837055
+vendor/lib64/libOmxVdec.so|d1cea6c4b64f2c377d5bb6f67707536e80aa2df6
 
 # OpenVX
 vendor/lib/libopenvx.so
@@ -1142,12 +1170,14 @@ vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
 # Sensors - MIUI
+vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service|3d3d4f122c60b531d796b4e807dfb41c8f594682
 vendor/bin/init.qcom.sensors.sh|5b38688acaf5f4a2e973b72d236a06498703a023
 vendor/bin/sensors.qti|26aee7bda2d52f16082b04116d7cd30ee6d00f2e
 vendor/bin/sscrpcd|54139dfa1970952cb17078015132491b3981804f
 vendor/etc/init/init.vendor.sensors.rc|8d286f50fd261dc8843c6a208386b535cc07641e
 vendor/etc/init/vendor.sensors.qti.rc|9a3db138bc4848b720e0839235a3e074259b78c1
 vendor/etc/init/vendor.sensors.sscrpcd.rc|df52901f1ad0fbc97d6070e28896a6be40154814
+vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc|09f221139f9adabaec1d08555de69cf23db0be15
 vendor/etc/elliptic_sensor.xml|c821cade58e0f10972fc5c81c24044db71e0619a
 vendor/etc/sensor_diag.cfg|a90a807b6e1a0ff524e13b0cc0e05a1a2845d48d
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
@@ -1166,10 +1196,12 @@ vendor/lib/libssccalapi.so|51867cc3538a7221c1d3517a8a90caf38c94bf44
 vendor/lib/libultrasound.so|9e286dc7fc5efe7c9916ef2a9cf5611d2486c3f2
 vendor/lib/sensors.mius.proximity.so|22b94659a3ebb751aafbebe4e12059da9e32bf8f
 vendor/lib/sensors.ssc.so|14d2ed404a306a638a3c152c47e425e65214c6e5
+vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so|4da1849d1f5de3bee63dc1944ed44bf6f5dfe604
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 vendor/lib64/libnotifyaudiohal.so|c6d53e28c977f92e974b85dfb532734b42d44231
 vendor/lib64/libsensorcal.so|6c7275b7fd887475e3e090284ab56d115ea1ecc1
+vendor/lib64/libsensor_cal_for_citvendorservice.so|b47f91bdb624e45939f85bb2903fdea5d717cdfe
 vendor/lib64/libsensorslog.so|8df3d0d6ccf65d88b98788fd65bd1918c022a264
 vendor/lib64/libsns_device_mode_stub.so|4c2b7642a55073f1db79d7dc2114c40e2ac6c51b
 vendor/lib64/libsns_fastRPC_util.so|74f066bdad58f2c97a6175c30b3eb1a0bd607936
@@ -1184,6 +1216,8 @@ vendor/lib64/libultrasound.so|99ba87b30969ee01026bfe33b2348f0e933fe2b6
 vendor/lib64/sensors.elliptic.so|60d2badb6950b36697fabf8886890de503975e11
 vendor/lib64/sensors.mius.proximity.so|442c2ff663cb86b5e571b2fa7d54babebb90a35f
 vendor/lib64/sensors.ssc.so|1100ae41689b7cb0b5c50cc9c9d968d2ced6010a
+vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so|7ec5f103171601b6932ad215a1c51c3c1445d7b4
+vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so|4812498e69d56d3faba698d7196796371f4383d8
 
 # Sensor (calibrate) - MIUI
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service|9712de3546d87ef2b3a96e8a745de5afa441c400
