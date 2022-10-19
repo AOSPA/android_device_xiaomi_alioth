@@ -1,0 +1,5 @@
+persist.vendor.dc_backlight.                     u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.histogram.enable                       u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.smart_dfps.enable                      u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.sre                                    u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.xiaomi.bl.poll                         u:object_r:vendor_displayfeature_prop:s0
