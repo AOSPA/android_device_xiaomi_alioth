@@ -36,6 +36,8 @@ on boot
     copy  /vendor/etc/tunings.txt /mnt/vendor/persist/vpp/tunings.txt
     mkdir /mnt/vendor/persist/camera 0755 system cameraserver
     write /sys/block/sda/queue/wbt_lat_usec 75000
+    chown system system /sys/class/drm/card0-DSI-1/dynamic_fps
+    chmod 0444 /sys/class/drm/card0-DSI-1/dynamic_fps
 
 on property:vendor.post_boot.parsed=1
     # configure input boost settings
@@ -87,3 +89,17 @@ service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
 
 on boot && property:ro.boot.product.hardware.sku=pro
     enable nqnfc_2_0_hal_service
+
+service displayfeature /vendor/bin/displayfeature
+    class late_start
+    user root
+    group root
+
+on property:init.svc.surfaceflinger=stopped
+    stop displayfeature
+
+on property:init.svc.surfaceflinger=running
+    start displayfeature
+
+on property:init.svc.surfaceflinger=restarting
+    stop displayfeature
