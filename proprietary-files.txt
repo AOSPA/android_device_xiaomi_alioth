@@ -740,7 +740,6 @@ vendor/lib64/vendor.display.postproc@1.0.so
 
 # Display (Configs) - MIUI
 vendor/etc/default.lm|ccf299a48b5637d96c1033d56b5094d8dd7767dd
-vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml|06f8f68a6072cbb309fd60b6c058636e65eb6387
 vendor/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml|b6156e3b04f8bfe5750401cf89c62ed8cf07df38
 vendor/etc/tunings.txt|196b4cc4410dd4c521ace955a225b4c8b47268a4
 
