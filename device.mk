@@ -125,6 +125,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+PRODUCT_PACKAGES += \
+    Aperture \
+    ApertureOverlay
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam,org.lineageos.aperture \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.aperture
+
 # Charging
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.cp.fcc_main_ua=400000 \
