@@ -125,8 +125,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+PRODUCT_PACKAGES += \
+    Aperture \
+    ApertureDevOverlay \
+    ApertureOverlay
+
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    persist.vendor.camera.privapp.list=org.codeaurora.snapcam
+    persist.vendor.camera.privapp.list=com.android.camera,org.codeaurora.snapcam,org.lineageos.aperture \
+    vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,org.lineageos.aperture
 
 # Charging
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
