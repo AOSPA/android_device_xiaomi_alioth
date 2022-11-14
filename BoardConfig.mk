@@ -160,6 +160,10 @@ BOARD_EROFS_PCLUSTER_SIZE := 262144
 PRODUCT_FS_COMPRESSION := 1
 PRODUCT_VIRTUAL_AB_COMPRESSION_METHOD := lz4
 
+# Puts odex files on system_other, as well as causing dex files not to get
+# stripped from APKs.
+BOARD_USES_SYSTEM_OTHER_ODEX := true
+
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true

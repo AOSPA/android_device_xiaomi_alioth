@@ -29,7 +29,11 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 PRODUCT_PACKAGES += \
     checkpoint_gc \
+    cppreopts.sh \
     otapreopt_script
+
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.cp_system_other_odex=1
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
