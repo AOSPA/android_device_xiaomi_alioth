@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc23d3ec_6787a19a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000722
+      },
+      "writtenOn": "2022-11-21T09:01:46Z",
+      "side": 1,
+      "message": "what about removing from fstab?",
+      "revId": "175df425523a97b177ef8ba5f540c011ba37d40f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ],
   "submitRequirementResults": []
 }
