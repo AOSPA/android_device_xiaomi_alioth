@@ -125,6 +125,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam
+
 # Charging
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.charger.enable_suspend=1
