@@ -210,8 +210,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Gboard paddings
 # Keyboard height ratio and bottom padding in dp for portrait mode
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.ime.height_ratio=1.0 \
-    ro.com.google.ime.kb_pad_port_b=10.0
+    ro.com.google.ime.height_ratio=1.075 \
+    ro.com.google.ime.kb_pad_port_b=8
 
 # Health
 PRODUCT_PACKAGES += \
