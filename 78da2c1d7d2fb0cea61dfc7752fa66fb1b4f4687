@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4752fce6_07565188",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000668
+      },
+      "writtenOn": "2023-06-05T12:29:42Z",
+      "side": 1,
+      "message": "Sorry, didn\u0027t check the latest patchset",
+      "revId": "78da2c1d7d2fb0cea61dfc7752fa66fb1b4f4687",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
