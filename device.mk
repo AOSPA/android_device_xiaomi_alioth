@@ -276,6 +276,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
+    alarm \
     audio \
     av \
     bt \
