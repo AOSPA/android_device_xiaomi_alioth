@@ -234,7 +234,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/xiaomi
 
 # NFC
 PRODUCT_COPY_FILES += \
