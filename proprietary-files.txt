@@ -1348,6 +1348,12 @@ vendor/lib64/libtime_genoff.so
 vendor/lib/libstreamparser.so
 
 # Vibrator - MIUI
+vendor/firmware/0_click_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/1_doubelClick_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/2_tick_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/3_thud_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/4_pop_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/5_heavyClick_P_RTP.bin|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/aw8697_haptic.bin|37721cb00ef2e50e6051de104605c061c9ef5f90
 vendor/firmware/aw8697_rtp_1.bin|9f32c9bf0776a566d3254129a028dae9bed76b81
 
