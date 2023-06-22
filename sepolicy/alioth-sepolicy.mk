@@ -30,5 +30,6 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/thermald \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/touch \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/usb \
+    device/xiaomi/alioth/sepolicy/vendor/xiaomi/vibrator \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/wireless \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/wlan
