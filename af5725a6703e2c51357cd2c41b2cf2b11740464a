@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e8de521_7d6154cc",
+        "filename": "device.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-08-17T04:31:29Z",
+      "side": 1,
+      "message": "keep this in micamera makefile",
+      "revId": "af5725a6703e2c51357cd2c41b2cf2b11740464a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "199389db_1daa4535",
+        "filename": "sepolicy/vendor/xiaomi/camera/hwservice.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-08-17T04:31:29Z",
+      "side": 1,
+      "message": "seems commonisable as well",
+      "revId": "af5725a6703e2c51357cd2c41b2cf2b11740464a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13d469fc_d6563c71",
+        "filename": "sepolicy/vendor/xiaomi/camera/property.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-08-17T04:31:29Z",
+      "side": 1,
+      "message": "this isn\u0027t used by alioth-sepolicy, commonise it instead.",
+      "revId": "af5725a6703e2c51357cd2c41b2cf2b11740464a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
