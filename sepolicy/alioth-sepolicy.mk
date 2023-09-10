@@ -22,6 +22,7 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/battery \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/camera \
+    device/xiaomi/alioth/sepolicy/vendor/xiaomi/dolby \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/fingerprint \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/ir \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/modem \
