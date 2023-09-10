@@ -74,6 +74,9 @@ PRODUCT_ODM_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+PRODUCT_PACKAGES += \
+    DolbyManager
+
 # Bluetooth
 TARGET_USE_AIDL_QTI_BT_AUDIO := true
 
