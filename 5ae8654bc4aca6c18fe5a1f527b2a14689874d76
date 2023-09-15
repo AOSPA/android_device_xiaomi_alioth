@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "052bc762_612da44b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2023-09-15T19:41:08Z",
+      "side": 1,
+      "message": "Breaks AptX Adaptative",
+      "revId": "5ae8654bc4aca6c18fe5a1f527b2a14689874d76",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
