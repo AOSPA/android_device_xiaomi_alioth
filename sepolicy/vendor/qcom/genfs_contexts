@@ -5,6 +5,9 @@ genfscon sysfs /devices/platform/soc/171c0000.slim/tavil-slim-pgd/wakeup        
 genfscon sysfs /devices/platform/soc/17300000.qcom,lpass/wakeup                                                                                                                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/18800000.qcom,icnss/wakeup                                                                                                                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/188101c.qcom,spss/wakeup                                                                                                                          u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1c00000.qcom,pcie/pci0000:00/0000:00:00.0/0000:01:00.0/1101_00.01.00/wakeup                                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1c10000.qcom,pcie/pci0002:00/0002:00:00.0/0002:01:00.0/0306_02.01.00_EFS/wakeup                                                                   u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1e00000.qcom,ipa/wakeup                                                                                                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/5c00000.qcom,ssc/wakeup                                                                                                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/8300000.qcom,turing/wakeup                                                                                                                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-3/3-0066/power_supply/bq2597x-standalone/wakeup                                                                                    u:object_r:sysfs_wakeup:s0
@@ -29,6 +32,8 @@ genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-4/4-0038/wakeup             
 genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-4/4-0048/wakeup                                                                                                                    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/aab0000.qcom,venus/wakeup                                                                                                                         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/abb0000.qcom,cvpss/wakeup                                                                                                                         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,sdam-qnovo@b000/wakeup                                                    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qpnp,fg/wakeup                                                                 u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:vadc@3100/iio:device1/wakeup                                                   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-04/c440000.qcom,spmi:qcom,pm8150l@4:qcom,power-on@800/wakeup                                                       u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-08/c440000.qcom,spmi:qcom,pmxprairie@8:qcom,power-on@800/wakeup                                                    u:object_r:sysfs_wakeup:s0
