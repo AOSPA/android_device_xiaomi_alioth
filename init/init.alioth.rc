@@ -37,6 +37,10 @@ on boot
     mkdir /mnt/vendor/persist/camera 0755 system cameraserver
     write /sys/block/sda/queue/wbt_lat_usec 75000
 
+    # Lineage Health
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/class/power_supply/battery/input_suspend
+
 on property:vendor.post_boot.parsed=1
     # configure input boost settings
     write /sys/devices/system/cpu/cpu_boost/input_boost_freq "0:1344000"
