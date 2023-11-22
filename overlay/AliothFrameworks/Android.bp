@@ -15,5 +15,5 @@
 runtime_resource_overlay {
     name: "AliothFrameworks",
     sdk_version: "current",
-    device_specific: true,
+    product_specific: true,
 }
