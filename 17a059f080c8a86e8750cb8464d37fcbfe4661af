@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "315f1dc1_838ff601",
+        "filename": "configs/vintf/manifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 594,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2023-11-25T13:20:08Z",
+      "side": 1,
+      "message": "Remove pasrmanager as well",
+      "revId": "17a059f080c8a86e8750cb8464d37fcbfe4661af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
