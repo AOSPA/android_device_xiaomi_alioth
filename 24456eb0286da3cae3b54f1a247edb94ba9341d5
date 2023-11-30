@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "287aecc7_d0f52d00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-11-30T15:42:20Z",
+      "side": 1,
+      "message": "PRODUCT_VIRTUAL_AB_COMPRESSION_METHOD you are removing this without disabling compression",
+      "revId": "24456eb0286da3cae3b54f1a247edb94ba9341d5",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
