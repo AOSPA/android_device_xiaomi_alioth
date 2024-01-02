@@ -262,7 +262,8 @@ PRODUCT_PACKAGES += \
     WifiOverlayM2012K11AC \
     WifiOverlayM2012K11AG \
     WifiOverlayM2012K11AI \
-    WifiResTarget
+    WifiResTarget \
+    WifiMainline
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
