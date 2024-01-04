@@ -16,6 +16,24 @@
       "message": "Remove pasrmanager as well",
       "revId": "17a059f080c8a86e8750cb8464d37fcbfe4661af",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18a43d9b_00a73a32",
+        "filename": "configs/vintf/manifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 594,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2024-01-04T23:02:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "315f1dc1_838ff601",
+      "revId": "17a059f080c8a86e8750cb8464d37fcbfe4661af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
