@@ -20,17 +20,13 @@ BOARD_SEPOLICY_DIRS += \
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/audio \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/bluetooth \
-    device/xiaomi/alioth/sepolicy/vendor/xiaomi/battery \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/camera \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/dolby \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/fingerprint \
-    device/xiaomi/alioth/sepolicy/vendor/xiaomi/ir \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/modem \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/power_supply \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/sensors \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/thermald \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/touch \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/usb \
-    device/xiaomi/alioth/sepolicy/vendor/xiaomi/vibrator \
-    device/xiaomi/alioth/sepolicy/vendor/xiaomi/wireless \
     device/xiaomi/alioth/sepolicy/vendor/xiaomi/wlan

@@ -1,2 +1,0 @@
-# xiaomi-touch: Palm sensor
-/sys/devices/virtual/touch/touch_dev/palm_sensor                                           u:object_r:vendor_sysfs_tp_virtual_prox:s0

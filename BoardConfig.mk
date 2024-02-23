@@ -167,4 +167,5 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 75
 TARGET_USERIMAGES_USE_F2FS := true
 
 # SEPolicy
+-include device/xiaomi/sepolicy/SEPolicy.mk
 -include device/xiaomi/alioth/sepolicy/alioth-sepolicy.mk
