@@ -3,6 +3,7 @@ allow hal_fingerprint_default vendor_fingerprint_data_file:dir rw_dir_perms;
 allow hal_fingerprint_default vendor_fingerprint_data_file:file create_file_perms;
 
 allow hal_fingerprint_default self:netlink_socket create_socket_perms_no_ioctl;
+allow hal_fingerprint_default vendor_sysfs_displayfeature:dir search;
 
 # Allow hal_fingerprint_default to read and write to
 # fingerprint_device/input_device/tee_device/uhid_device/vendor_qdsp_device/vendor_xdsp_device
