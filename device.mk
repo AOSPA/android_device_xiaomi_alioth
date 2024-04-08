@@ -253,6 +253,7 @@ PRODUCT_PACKAGES += \
     AliothSystemUI \
     AOSPAAliothFrameworks \
     AOSPAAliothSystemUI \
+    AOSPACertifiedProps \
     SettingsOverlayM2012K11AG \
     SettingsOverlayM2012K11AI \
     SettingsProviderM2012K11AC \
@@ -261,6 +262,9 @@ PRODUCT_PACKAGES += \
     WifiOverlayM2012K11AC \
     WifiOverlayM2012K11AG \
     WifiOverlayM2012K11AI
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/overlay/config-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/overlay/config/config.xml
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
