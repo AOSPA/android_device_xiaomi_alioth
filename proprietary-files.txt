@@ -556,6 +556,9 @@ vendor/bin/batterysecret|e495988b7619cffccb8e834d3d7c75fecb12b524
 vendor/bin/hvdcp_opti|d3dae2d3c64df366b82d11deb100af4d8813131f
 vendor/etc/init/init.batterysecret.rc|9abbe6fd82a0bd5b4499bfe141a5645e76e57606
 
+# Camera
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
+
 # CNE
 vendor/app/CACertService/CACertService.apk
 vendor/app/CneApp/CneApp.apk
