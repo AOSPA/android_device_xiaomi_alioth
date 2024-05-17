@@ -61,6 +61,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := kona
 
+# Camera - Miui
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
+
 # DTB
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_BOOT_HEADER_VERSION := 3
