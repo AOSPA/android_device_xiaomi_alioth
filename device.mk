@@ -60,20 +60,13 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.audio.us.type=mius \
     ro.vendor.audio.zoom.support=true \
     ro.vendor.audio.zoom.type=1 \
-    vendor.audio.dolby.ds2.enabled=false \
-    vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.spkcal.copy.inhal=true \
     vendor.audio.usb.disable.sidetone=true
 
 PRODUCT_ODM_PROPERTIES += \
-    aaudio.mmap_policy=1 \
     ro.vendor.audio.sdk.fluencetype=fluence \
-    vendor.audio.adm.buffering.ms=6 \
     vendor.audio.feature.dynamic_ecns.enable=false \
-    vendor.audio.feature.spkr_prot.enable=false \
-    vendor.audio.hal.output.suspend.supported=false \
-    vendor.audio.offload.multiple.enabled=true \
-    vendor.audio.offload.track.enable=false
+    vendor.audio.feature.spkr_prot.enable=false
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_overlay_static.xml \
