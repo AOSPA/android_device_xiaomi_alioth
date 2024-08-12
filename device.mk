@@ -76,6 +76,8 @@ PRODUCT_PACKAGES += \
     XiaomiDolby
 
 # Bluetooth
+TARGET_USE_AIDL_QTI_BT_AUDIO := true
+
 PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.fflag.override.settings_bluetooth_hearing_aid=true \
     persist.vendor.qcom.bluetooth.a2dp_mcast_test.enabled=false \
